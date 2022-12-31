@@ -1,0 +1,394 @@
+body{
+    margin: 0; 
+}
+
+.menu{
+    height: 120px;
+    width: auto;
+    background: linear-gradient(to right, white 47%,rgb(234, 244, 247) 48%,rgb(234, 244, 247) 90%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.menu div{
+    margin: auto;
+}
+
+.menu div h1{
+    color: blue;
+    font-size: 32px; 
+}
+
+.links{
+    width: 55%;
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+}
+
+.links a:hover{
+    color: black;
+}
+
+.links a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px; 
+    font-weight: bold; 
+}
+
+.links button{
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(74, 74, 170, 0.76);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;  
+}
+
+.links button:hover{
+    background-color: black;
+}
+
+.fight{
+    height: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: url(./imagenes/triangulo.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.fight_virus{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+    padding-right: 70px;
+}
+
+.fight_virus h2{
+    color: blue;
+    font-size: 80px;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.fight_virus p{
+    color: blue;
+    font-size: 28px;
+    text-align: left;
+    line-height: 2;
+}
+
+.proteccion ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+.proteccion ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 28px;
+    color: blue;
+}
+
+.schedule{
+    color: blue;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.enfermera img{
+    height: 850px;
+    width: 700px;
+}
+
+table{
+    width: 900px;
+    height: 50px;
+    position: absolute;
+    left: 90px;
+    background-color: white;  
+    padding: 10px;
+}
+
+th, td{
+    padding: 5px;
+}
+
+th{
+    text-align: left;
+    font-size: 24px;
+    color:gray;
+}
+
+td{
+    padding-left: 40px;
+    font-size: 24px;
+    color: blue;
+}
+
+th button{
+    background-color: blue;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+th button:hover{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 150px;
+}
+
+.container img{
+    width: 200px;
+    height: 60px;
+    object-fit: fill;
+    filter: grayscale(100%);
+    opacity: 0.2;
+}
+
+.why{
+    width: 40%;
+    height: auto;
+    padding-left: 100px;
+}
+
+.why_i{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+}
+
+.inorder{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-right: 90px;
+    color: blue;
+}
+
+.beneficios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 100px;
+}
+
+.minimize{
+    color: blue;
+    margin: 0;
+    padding: 100px 40px 40px 40px;
+    font-size: 18px;
+}
+
+.minimize:hover{
+    background-color: aquamarine;
+}
+
+.minimize h3{
+    font-size: 22px;
+    text-align: left;
+    text-align:start;
+}
+
+.minimize p{
+    line-height: 1.5;
+}
+
+.ad{
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.advertencia img{
+    height: 800px;
+    width: 600px;
+}
+
+.before h2{
+    color: blue;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.before p{
+    color: blue;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2;
+}
+
+.acordeon section p{
+    display: none;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 120px;
+    border-bottom: 1px solid gray;
+    color: blue;
+}
+
+.acordeon section a{
+    text-align: left;
+    text-decoration: none;
+    color: blue; 
+}
+
+.acordeon section a:hover{
+    color:black;
+}
+
+.acordeon section:target p{
+    display: block;
+    line-height: 1.5;
+}
+
+.emergency{
+    width: 40%;
+    height: auto;
+    padding-left: 100px;
+}
+
+.emergency h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: blue;
+    padding-top: 50px;
+}
+
+.emergency p{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-right: 90px;
+    color: blue;
+}
+
+#contact{
+    height: 400px; ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: auto;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: blue;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+figure{
+    margin: auto;
+    background-color: aquamarine;
+}
+
+.card .b_call button{
+    background-color: aquamarine;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 180px;
+}
+
+.card .b_call button:hover{
+    background-color: blue;
+}
+
+#imgcontact img{
+    height: 400px;
+    width: 670px;
+}
+
+footer{
+    background-color: rgb(234, 244, 247);
+    margin-top: 90px;
+}
+
+.information{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 90px;
+    color: blue;
+}
+
+.description h3{
+    font-size: 20px;
+}
+
+.description p{
+    margin-right: 500px;
+    line-height: 1.5;
+}
+
+.support{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.support div{
+    display: flex;
+    flex-direction: column;  
+}
+
+.support div a{
+    text-decoration: none;
+    line-height: 1.5;
+    color: gray;
+}
+
+.support div a:hover{
+    color: black;
+}
+
+.terms{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: blue;
+}
+
+.vaccination2021{
+    padding-left: 90px;
+}
+
+.privacy ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:15px;
+    padding-right: 50px;  
+}
+
+.privacy ul li{
+    list-style: none;
+    justify-content: end;
+}
